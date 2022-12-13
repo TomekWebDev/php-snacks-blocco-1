@@ -4,8 +4,6 @@ e come valore un array di post associati a quella data.
 Stampare ogni data con i relativi post. -->
 
 
-<!--  -->
-
 <?php
 
 $posts = [
