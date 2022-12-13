@@ -25,9 +25,9 @@ Se tutto è ok stampare “Accesso riuscito”, altrimenti “Accesso negato” 
 
     <?php
 
-    $nome = $_GET['nome'];
-    $email = $_GET['email'];
-    $numero = $_GET['numero'];
+    $nome = @$_GET['nome'];
+    $email = @$_GET['email'];
+    $numero = @$_GET['numero'];
 
     ?>
 
